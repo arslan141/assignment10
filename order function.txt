@@ -1,0 +1,14 @@
+Higher Order Functions vs. Callback Functions:
+
+Higher Order Functions:
+
+A higher order function is a function that takes one or more functions as arguments, or returns a function as its result. Higher order functions operate on other functions, either by taking them as arguments or by returning them.
+Callback Functions:
+
+A callback function is a function that is passed as an argument to another function, to be "called back" at a later time. Callbacks are used to handle asynchronous operations, or to customize the behavior of higher order functions.
+Difference:
+
+A higher order function is the function that either takes a function as an argument or returns a function, while a callback function is the function that is passed to another function to be executed later.
+Is filter a Higher Order Function in JavaScript?
+
+Yes, filter is a higher order function in JavaScript. The filter method on arrays takes a callback function as an argument. This callback function is applied to each element of the array to determine if it should be included in the new array.
